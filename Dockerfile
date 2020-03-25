@@ -26,5 +26,5 @@ RUN apk add --update bash \
     && /usr/local/bin/user_setup
 
 WORKDIR /root
-USER $USER_UID
+#USER $USER_UID
 
